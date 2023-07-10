@@ -36,6 +36,7 @@ class _HomeState extends State<Home> {
               children: <Widget>[
                 TextButton.icon(
                   onPressed: () async {
+                    //navigate to location screen
                     dynamic result =
                      await Navigator.pushNamed(context, '/location');
                     setState(() {
